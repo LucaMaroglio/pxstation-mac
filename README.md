@@ -9,7 +9,7 @@
 </p>
 
 > **PxStation Mac is a fork of [macos-spice-client](https://github.com/pawelwiecaszek/macos-spice-client)**
-> by Paweł Więcaszek (MIT license), rebranded and maintained by Zenity.it — see [Credits](#credits).
+> by Paweł Więcaszek (MIT license), rebranded and maintained by Luca Maroglio — see [Credits](#credits).
 
 ---
 
@@ -141,5 +141,5 @@ and [PxStation Windows](https://github.com/LucaMaroglio/pxstation-win) (WinUI 3,
 
 ## License
 
-[MIT](LICENSE). Original work © 2026 Paweł Więcaszek; PxStation Mac changes © 2026 Zenity.it. SPICE protocol constants come from the BSD-licensed
+[MIT](LICENSE). Original work © 2026 Paweł Więcaszek; PxStation Mac changes © 2026 Luca Maroglio. SPICE protocol constants come from the BSD-licensed
 [spice-protocol](https://gitlab.freedesktop.org/spice/spice-protocol) headers.
