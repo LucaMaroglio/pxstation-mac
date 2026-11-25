@@ -4,8 +4,8 @@
 #   brew tap LucaMaroglio/pxstation-mac https://github.com/LucaMaroglio/pxstation-mac
 #   brew install --cask pxstation-mac
 cask "pxstation-mac" do
-  version "0.2.0"
-  sha256 "d2151932212708df9eb3dae82ef9ec042963fe90df95ac8a04d62f7bd214704c"
+  version "0.2.1"
+  sha256 "de39cd0c93b7e123967493ca8ab02f15204d3e2ce84816c409402e244dd2f3fe"
 
   url "https://github.com/LucaMaroglio/pxstation-mac/releases/download/#{version}/PxStation-Mac-#{version}.dmg"
   name "PxStation Mac"
