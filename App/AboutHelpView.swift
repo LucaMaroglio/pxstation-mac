@@ -14,9 +14,9 @@ enum AppInfo {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "–"
     }
 
-    /// "[year] - Zenity.it", from NSHumanReadableCopyright (set in the build settings).
+    /// "[year] - Luca Maroglio", from NSHumanReadableCopyright (set in the build settings).
     static var copyright: String {
-        Bundle.main.object(forInfoDictionaryKey: "NSHumanReadableCopyright") as? String ?? "Zenity.it"
+        Bundle.main.object(forInfoDictionaryKey: "NSHumanReadableCopyright") as? String ?? "Luca Maroglio"
     }
 }
 
