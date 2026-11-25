@@ -135,6 +135,10 @@ Changes in PxStation Mac:
   original app. Proxmox API tokens saved by the original app must be entered again.
 - Proxmox: the CA returned by the `spiceproxy` API is no longer unescaped twice.
 
+Sibling projects, with the same version numbers (0.3.1) and the same interface languages:
+[PxStation Linux](https://github.com/LucaMaroglio/pxstation-linux) (GTK and Qt, uses remote-viewer)
+and [PxStation Windows](https://github.com/LucaMaroglio/pxstation-win) (WinUI 3, native SPICE in C#).
+
 ## License
 
 [MIT](LICENSE). Original work © 2026 Paweł Więcaszek; PxStation Mac changes © 2026 Zenity.it. SPICE protocol constants come from the BSD-licensed
