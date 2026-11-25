@@ -15,7 +15,7 @@ public actor HostUSBBackend: USBRedirDevice {
     public nonisolated let displayName: String
     public nonisolated let deviceID: UInt64
     private let device: IOUSBHostDevice
-    private let ioQueue = DispatchQueue(label: "com.pawelwiecaszek.spiceclient.usb-io")
+    private let ioQueue = DispatchQueue(label: "it.zenity.pxstation-mac.usb-io")
     private var interfaces: [UInt8: IOUSBHostInterface] = [:]
     private var altSettings: [UInt8: UInt8] = [:]
     private var pipes: [UInt8: IOUSBHostPipe] = [:]

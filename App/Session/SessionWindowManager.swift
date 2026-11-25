@@ -10,7 +10,7 @@ final class SessionWindowManager: NSObject, NSWindowDelegate {
     static let shared = SessionWindowManager()
 
     private var windows: [UUID: (window: NSWindow, controller: SessionController)] = [:]
-    private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "app")
+    private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "app")
 
     var hasSessions: Bool { !windows.isEmpty }
 
@@ -76,7 +76,7 @@ final class SessionWindowManager: NSObject, NSWindowDelegate {
 
     func presentOpenPanel() {
         let panel = NSOpenPanel()
-        panel.allowedContentTypes = [UTType(importedAs: "com.pawelwiecaszek.spiceclient.vv")]
+        panel.allowedContentTypes = [UTType(importedAs: "it.zenity.pxstation-mac.vv")]
         panel.allowsMultipleSelection = true
         panel.message = String(localized: "Choose a virt-viewer connection file (.vv)")
         guard panel.runModal() == .OK else { return }

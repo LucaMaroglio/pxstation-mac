@@ -61,7 +61,7 @@ final class SessionController: RemoteDisplayViewDelegate {
     /// Windows of additional guest monitors, by SPICE display id (M6 groundwork).
     @ObservationIgnored private var secondaryWindows: [UInt8: SecondaryDisplayWindow] = [:]
     @ObservationIgnored private let settings: AppSettings
-    @ObservationIgnored private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "session")
+    @ObservationIgnored private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "session")
     @ObservationIgnored weak var window: NSWindow?
     @ObservationIgnored private let policy = ReconnectPolicy()
     /// The original profile had no ticket, so it can simply be used again.

@@ -192,7 +192,7 @@ enum Descriptors {
         case 0x03:
             switch index {
             case 0: return [4, 0x03, 0x09, 0x04]  // English (US)
-            case 1: return string("MacOS Spice Client")
+            case 1: return string("PxStation Mac")
             case 2: return string("Virtual CD-ROM")
             case 3: return string("5350494345303031")  // ≥ 12 hex digits, as MSC requires
             default: return nil

@@ -54,7 +54,7 @@ final class USBController {
     @ObservationIgnored private let profile: ConnectionProfile
     @ObservationIgnored private var knownDeviceIDs: Set<UInt64>?
     @ObservationIgnored private var tasks: [Task<Void, Never>] = []
-    @ObservationIgnored private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "usb")
+    @ObservationIgnored private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "usb")
 
     init(session: SpiceSession, profile: ConnectionProfile) {
         self.session = session

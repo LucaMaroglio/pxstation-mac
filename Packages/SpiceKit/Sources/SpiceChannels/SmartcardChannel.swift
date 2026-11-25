@@ -28,7 +28,7 @@ public enum SmartcardEvent: Sendable, Equatable {
 /// backed by one card on the Mac at a time.
 public actor SmartcardChannel {
     public static let capabilities = CapabilitySet(bits: [])
-    static let readerName = "SpiceClient Smartcard Reader"
+    static let readerName = "PxStation Smartcard Reader"
 
     private let connection: ChannelConnection
     private let events: AsyncStream<SmartcardEvent>.Continuation

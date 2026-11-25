@@ -5,7 +5,7 @@ import Security
 /// Stores Proxmox API token secrets in the user's login Keychain (one generic-password
 /// item per server). Secrets never go to UserDefaults, files or logs.
 public enum ProxmoxKeychain {
-    static let service = "com.pawelwiecaszek.spiceclient.proxmox-token"
+    static let service = "it.zenity.pxstation-mac.proxmox-token"
 
     public enum KeychainError: Error, Equatable, Sendable, LocalizedError {
         case status(OSStatus)
@@ -27,7 +27,7 @@ public enum ProxmoxKeychain {
         let attributes: [CFString: Any] = [
             kSecValueData: Data(secret.utf8),
             kSecAttrAccessible: kSecAttrAccessibleWhenUnlocked,
-            kSecAttrLabel: "MacOS Spice Client – Proxmox API token",
+            kSecAttrLabel: "PxStation Mac – Proxmox API token",
         ]
         var status = SecItemUpdate(query as CFDictionary, attributes as CFDictionary)
         if status == errSecItemNotFound {

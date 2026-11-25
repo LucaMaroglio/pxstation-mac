@@ -21,7 +21,7 @@ final class MetalRenderer {
     private let cursorPipeline: any MTLRenderPipelineState
     private let nearestSampler: any MTLSamplerState
     private let linearSampler: any MTLSamplerState
-    private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "render")
+    private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "render")
 
     private(set) var surfaceTexture: (any MTLTexture)?
     private(set) var surfaceSize: (width: Int, height: Int) = (0, 0)

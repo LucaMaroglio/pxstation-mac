@@ -5,7 +5,7 @@ import os
 import Security
 import SpiceWire
 
-private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "transport")
+private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "transport")
 
 /// Network.framework implementation of `StreamConnector`.
 ///
@@ -98,7 +98,7 @@ public struct NetworkConnector: StreamConnector {
         // `host-subject` replaces the hostname check (Proxmox hosts are opaque tokens, not
         // DNS names); without it the hostname is verified, as spice-gtk does.
         let hostname: String? = expectedSubject == nil ? endpoint.host : nil
-        let verifyQueue = DispatchQueue(label: "com.pawelwiecaszek.spiceclient.tls-verify")
+        let verifyQueue = DispatchQueue(label: "it.zenity.pxstation-mac.tls-verify")
         sec_protocol_options_set_verify_block(security, { _, trustRef, complete in
             guard anchorsUsable else {
                 log.error("TLS verification failed: unusable CA certificate in the connection file")
@@ -262,7 +262,7 @@ final class HTTPConnectFramer: NWProtocolFramerImplementation {
 /// `SpiceByteStream` over an `NWConnection`, with an internal read buffer.
 actor NWByteStream: SpiceByteStream {
     private let connection: NWConnection
-    private let queue = DispatchQueue(label: "com.pawelwiecaszek.spiceclient.connection")
+    private let queue = DispatchQueue(label: "it.zenity.pxstation-mac.connection")
     private var buffer: [UInt8] = []
     private var readOffset = 0
     private var finished = false

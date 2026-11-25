@@ -8,11 +8,8 @@ struct WelcomeView: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            Image(systemName: "display")
-                .font(.system(size: 48, weight: .light))
-                .foregroundStyle(.tint)
-                .accessibilityHidden(true)
-            Text("MacOS Spice Client")
+            AppLogo(size: 96)
+            Text(AppInfo.name)
                 .font(.largeTitle.weight(.semibold))
             Text("Open a virt-viewer connection file (.vv), for example the one your browser downloads when you click “SPICE” in Proxmox VE.")
                 .multilineTextAlignment(.center)
@@ -29,7 +26,7 @@ struct WelcomeView: View {
                 .foregroundStyle(.tertiary)
         }
         .padding(40)
-        .frame(width: 520, height: 360)
+        .frame(width: 520, height: 400)
         .background(isTargeted ? Color.accentColor.opacity(0.08) : .clear)
         .dropDestination(for: URL.self) { urls, _ in
             let files = urls.filter { $0.pathExtension.lowercased() == "vv" }

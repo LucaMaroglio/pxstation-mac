@@ -54,7 +54,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p build
-          xcodebuild -project SpiceClient.xcodeproj -scheme SpiceClient -configuration Debug \
+          xcodebuild -project PxStation.xcodeproj -scheme PxStation -configuration Debug \
             -destination 'platform=macOS,arch=arm64' -derivedDataPath build/DerivedData \
             CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM= \
             build 2>&1 | tee build/xcodebuild.log

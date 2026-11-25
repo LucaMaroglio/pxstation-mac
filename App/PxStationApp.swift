@@ -2,7 +2,7 @@ import AppKit
 import SwiftUI
 
 @main
-struct SpiceClientApp: App {
+struct PxStationApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
 
     var body: some Scene {
@@ -10,6 +10,13 @@ struct SpiceClientApp: App {
             SettingsView(settings: AppSettings.shared)
         }
         .commands {
+            CommandGroup(replacing: .appInfo) {
+                Button("About \(AppInfo.name)") { AboutWindow.shared.show() }
+            }
+            CommandGroup(replacing: .help) {
+                Button("\(AppInfo.name) Help") { HelpWindow.shared.show() }
+                    .keyboardShortcut("?", modifiers: .command)
+            }
             CommandGroup(replacing: .newItem) {
                 Button("Open Connection File…") { SessionWindowManager.shared.presentOpenPanel() }
                     .keyboardShortcut("o")

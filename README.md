@@ -1,16 +1,19 @@
 <p align="center">
-  <img src="docs/icon.png" width="128" height="128" alt="MacOS Spice Client icon">
+  <img src="docs/PxStationIcon.png" width="128" height="128" alt="PxStation Mac icon">
 </p>
 
-<h1 align="center">MacOS Spice Client</h1>
+<h1 align="center">PxStation Mac</h1>
 
 <p align="center">
   A native macOS client for SPICE virtual machine consoles: Proxmox VE, QEMU/libvirt and oVirt.
 </p>
 
+> **PxStation Mac is a fork of [macos-spice-client](https://github.com/pawelwiecaszek/macos-spice-client)**
+> by Paweł Więcaszek (MIT license), rebranded and maintained by Zenity.it — see [Credits](#credits).
+
 ---
 
-MacOS Spice Client opens the virt-viewer connection files (`.vv`) that Proxmox and other
+PxStation Mac opens the virt-viewer connection files (`.vv`) that Proxmox and other
 virtualization platforms hand out and shows the virtual machine in a fast, native Mac
 window. The SPICE protocol is implemented from scratch in Swift, the screen is drawn with
 Metal, and the app runs fully sandboxed.
@@ -62,16 +65,16 @@ Requires **macOS 26 Tahoe** or later, on Apple silicon or Intel.
 ### Homebrew
 
 ```bash
-brew tap pawelwiecaszek/macos-spice-client https://github.com/pawelwiecaszek/macos-spice-client
-brew install --cask macos-spice-client
+brew tap LucaMaroglio/pxstation-mac https://github.com/LucaMaroglio/pxstation-mac
+brew install --cask pxstation-mac
 ```
 
-Update with `brew upgrade --cask macos-spice-client`.
+Update with `brew upgrade --cask pxstation-mac`.
 
 ### Download
 
-Download the latest `.dmg` from [Releases](https://github.com/pawelwiecaszek/macos-spice-client/releases),
-open it and drag **MacOS Spice Client** to Applications.
+Download the latest `.dmg` from [Releases](https://github.com/LucaMaroglio/pxstation-mac/releases),
+open it and drag **PxStation Mac** to Applications.
 
 The app is ad-hoc signed and not notarized by Apple. Each release lists the DMG's SHA-256
 checksum (`.sha256` file) so you can verify the download.
@@ -86,11 +89,11 @@ in place, so the same one-time approval applies.
 Needs Xcode 26 or later (with the Metal Toolchain component).
 
 ```bash
-git clone https://github.com/pawelwiecaszek/macos-spice-client.git
-cd macos-spice-client
-xcodebuild -project SpiceClient.xcodeproj -scheme SpiceClient -configuration Release \
+git clone https://github.com/LucaMaroglio/pxstation-mac.git
+cd pxstation-mac
+xcodebuild -project PxStation.xcodeproj -scheme PxStation -configuration Release \
   -derivedDataPath build build
-open "build/Build/Products/Release/MacOS Spice Client.app"
+open "build/Build/Products/Release/PxStation Mac.app"
 ```
 
 The protocol library builds and tests on its own: `cd Packages/SpiceKit && swift test`.
@@ -117,7 +120,20 @@ API Tokens). The token needs **VM.Audit**, **VM.PowerMgmt** and **VM.Console** �
 example the *PVEVMUser* role on `/vms`. If privilege separation is on, give the role to
 the token itself, not only to its user.
 
+## Credits
+
+PxStation Mac is based on [macos-spice-client](https://github.com/pawelwiecaszek/macos-spice-client)
+by Paweł Więcaszek: the SPICE protocol implementation, the Metal renderer and almost all of
+the app come from that project. Fixes that are not PxStation-specific are offered back
+upstream as pull requests.
+
+Changes in PxStation Mac:
+- New name, icon and logo; About and Help windows.
+- Own bundle identifier (`it.zenity.pxstation-mac`), so it can be installed next to the
+  original app. Proxmox API tokens saved by the original app must be entered again.
+- Proxmox: the CA returned by the `spiceproxy` API is no longer unescaped twice.
+
 ## License
 
-[MIT](LICENSE). SPICE protocol constants come from the BSD-licensed
+[MIT](LICENSE). Original work © 2026 Paweł Więcaszek; PxStation Mac changes © 2026 Zenity.it. SPICE protocol constants come from the BSD-licensed
 [spice-protocol](https://gitlab.freedesktop.org/spice/spice-protocol) headers.

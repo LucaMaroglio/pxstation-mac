@@ -399,7 +399,7 @@ enum CCIDDescriptors {
         case 0x03:
             switch index {
             case 0: return [4, 0x03, 0x09, 0x04]  // English (US)
-            case 1: return Descriptors.string("MacOS Spice Client")
+            case 1: return Descriptors.string("PxStation Mac")
             case 2: return Descriptors.string("Virtual Smart Card Reader")
             case 3: return Descriptors.string("5350494345434344")
             default: return nil

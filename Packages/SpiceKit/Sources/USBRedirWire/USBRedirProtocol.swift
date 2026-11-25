@@ -4,7 +4,7 @@
 // device is the *usb-guest*.
 
 /// Version string sent in our hello (free-form, for logging only).
-public let usbRedirVersionString = "MacOS Spice Client"
+public let usbRedirVersionString = "PxStation Mac"
 
 /// `usb_redir_*` packet types.
 public enum USBRedirPacketType: UInt32, Sendable {

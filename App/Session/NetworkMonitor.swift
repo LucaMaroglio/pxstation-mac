@@ -18,7 +18,7 @@ final class NetworkMonitor {
             let online = path.status == .satisfied
             Task { @MainActor in NetworkMonitor.shared.update(online) }
         }
-        monitor.start(queue: DispatchQueue(label: "com.pawelwiecaszek.spiceclient.network-monitor"))
+        monitor.start(queue: DispatchQueue(label: "it.zenity.pxstation-mac.network-monitor"))
     }
 
     private func update(_ online: Bool) {

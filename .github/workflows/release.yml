@@ -19,8 +19,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  APP_NAME: MacOS Spice Client
-  DMG_PREFIX: MacOS-Spice-Client
+  APP_NAME: PxStation Mac
+  DMG_PREFIX: PxStation-Mac
 
 jobs:
   release:
@@ -81,7 +81,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p build
-          xcodebuild -project SpiceClient.xcodeproj -scheme SpiceClient -configuration Release \
+          xcodebuild -project PxStation.xcodeproj -scheme PxStation -configuration Release \
             -destination 'generic/platform=macOS' -derivedDataPath build/DerivedData \
             ARCHS="arm64 x86_64" ONLY_ACTIVE_ARCH=NO \
             MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$GITHUB_RUN_NUMBER" \
@@ -168,7 +168,7 @@ jobs:
         run: |
           git fetch --depth=1 origin main
           git checkout -B main FETCH_HEAD
-          cask=Casks/macos-spice-client.rb
+          cask=Casks/pxstation-mac.rb
           sed -i '' -E -e "s/^  version \".*\"/  version \"$VERSION\"/" -e "s/^  sha256 .*/  sha256 \"$SHA256\"/" \
             -e "/^  # Placeholder until the first release/d" "$cask"
           grep -q "sha256 \"$SHA256\"" "$cask"

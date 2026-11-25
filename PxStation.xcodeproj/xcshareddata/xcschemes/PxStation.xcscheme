@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B2C3D40000000000001009"
-               BuildableName = "SpiceClient.app"
-               BlueprintName = "SpiceClient"
-               ReferencedContainer = "container:SpiceClient.xcodeproj">
+               BuildableName = "PxStation Mac.app"
+               BlueprintName = "PxStation"
+               ReferencedContainer = "container:PxStation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B2C3D4000000000000100A"
-               BuildableName = "SpiceClientUITests.xctest"
-               BlueprintName = "SpiceClientUITests"
-               ReferencedContainer = "container:SpiceClient.xcodeproj">
+               BuildableName = "PxStationUITests.xctest"
+               BlueprintName = "PxStationUITests"
+               ReferencedContainer = "container:PxStation.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -105,9 +105,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B2C3D40000000000001009"
-               BuildableName = "SpiceClient.app"
-               BlueprintName = "SpiceClient"
-               ReferencedContainer = "container:SpiceClient.xcodeproj">
+               BuildableName = "PxStation Mac.app"
+               BlueprintName = "PxStation"
+               ReferencedContainer = "container:PxStation.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -122,9 +122,9 @@
          <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B2C3D40000000000001009"
-               BuildableName = "SpiceClient.app"
-               BlueprintName = "SpiceClient"
-               ReferencedContainer = "container:SpiceClient.xcodeproj">
+               BuildableName = "PxStation Mac.app"
+               BlueprintName = "PxStation"
+               ReferencedContainer = "container:PxStation.xcodeproj">
             </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

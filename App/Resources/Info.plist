@@ -15,7 +15,7 @@
 			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.pawelwiecaszek.spiceclient.vv</string>
+				<string>it.zenity.pxstation-mac.vv</string>
 			</array>
 		</dict>
 	</array>
@@ -23,7 +23,7 @@
 	<array>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>com.pawelwiecaszek.spiceclient.vv</string>
+			<string>it.zenity.pxstation-mac.vv</string>
 			<key>UTTypeDescription</key>
 			<string>virt-viewer Connection File</string>
 			<key>UTTypeConformsTo</key>

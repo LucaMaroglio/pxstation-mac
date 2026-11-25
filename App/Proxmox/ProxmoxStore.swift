@@ -16,7 +16,7 @@ final class ProxmoxStore {
 
     @ObservationIgnored private let defaults: UserDefaults
     @ObservationIgnored private var learnedCAs: [String: String] = [:]
-    @ObservationIgnored private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "proxmox")
+    @ObservationIgnored private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "proxmox")
 
     private enum Keys {
         static let servers = "proxmoxServers"

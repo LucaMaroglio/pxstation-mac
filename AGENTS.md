@@ -1,4 +1,4 @@
-# AGENTS.md — Spice macOS Client
+# AGENTS.md — PxStation Mac
 
 Guidance for coding agents (Claude Code and others) working in this repository.
 Read this file fully before making changes. If something here conflicts with a direct
@@ -38,7 +38,7 @@ Typical user flow: user clicks "SPICE" in the Proxmox web UI → browser downloa
 | Networking | `Network.framework` (`NWConnection`), TLS via `sec_protocol_options` |
 | Crypto | Security.framework (`SecKeyCreateEncryptedData`, `.rsaEncryptionOAEPSHA1`) for SPICE ticket auth |
 | Audio | AVAudioEngine (playback + record); Opus via a vetted Swift/C package or raw PCM fallback |
-| Logging | `os.Logger` with subsystem `com.<org>.spiceclient`, one category per channel |
+| Logging | `os.Logger` with subsystem `it.zenity.pxstation-mac`, one category per channel |
 | Tests | Swift Testing (`import Testing`) for new tests; XCTest only for UI tests |
 | Dependencies | Swift Package Manager only. **Ask before adding any dependency.** No CocoaPods/Carthage. |
 
@@ -52,9 +52,9 @@ Architecture: **Apple silicon (arm64)** is the primary target. Don't add Intel-s
 .
 ├── AGENTS.md                 ← this file
 ├── CLAUDE.md                 ← "@AGENTS.md" import for Claude Code
-├── SpiceClient.xcodeproj     ← app target only; thin
+├── PxStation.xcodeproj       ← app target only; thin
 ├── App/                      ← SwiftUI app, windows, menus, settings, document handling
-│   ├── SpiceClientApp.swift
+│   ├── PxStationApp.swift
 │   ├── Session/              ← SessionController (glues SpiceKit ↔ UI)
 │   ├── Display/              ← RemoteDisplayView (NSView), MetalRenderer, Shaders.metal
 │   ├── Input/                ← keyboard/mouse capture, keymaps
@@ -93,15 +93,15 @@ Rules:
 cd Packages/SpiceKit && swift build && swift test
 
 # App
-xcodebuild -project SpiceClient.xcodeproj -scheme SpiceClient \
+xcodebuild -project PxStation.xcodeproj -scheme PxStation \
   -destination 'platform=macOS,arch=arm64' -configuration Debug build
 
 # All tests
-xcodebuild -project SpiceClient.xcodeproj -scheme SpiceClient \
+xcodebuild -project PxStation.xcodeproj -scheme PxStation \
   -destination 'platform=macOS,arch=arm64' test
 
 # Open a .vv file with a debug build
-open -a "$(xcodebuild -scheme SpiceClient -showBuildSettings | awk '/ BUILT_PRODUCTS_DIR/{print $3}')/SpiceClient.app" Fixtures/sample.vv
+open -a "$(xcodebuild -scheme PxStation -showBuildSettings | awk '/ BUILT_PRODUCTS_DIR/{print $3}')/PxStation Mac.app" Fixtures/sample.vv
 ```
 
 Before declaring any task done:
@@ -258,7 +258,7 @@ Goal: pick an `.iso` on the Mac and have it appear in the guest as a CD/DVD driv
 ## 7d. Proxmox VE integration (power control, VM list)
 
 - SPICE has no power control; the app uses the Proxmox REST API (`Packages/SpiceKit/Sources/Proxmox`). A Proxmox `.vv` identifies the VM: `host=pvespiceproxy:<ticket>:<vmid>:<node>::…`, proxy host = node (API on port 8006).
-- Auth: API token only (`Authorization: PVEAPIToken=user@realm!name=<secret>`). The secret is stored in the login Keychain (generic password, service `com.pawelwiecaszek.spiceclient.proxmox-token`); server settings (host, port, token ID, pinned fingerprint, cluster CA) in UserDefaults. Never log or persist the secret elsewhere. (SPICE tickets remain memory-only, §9.)
+- Auth: API token only (`Authorization: PVEAPIToken=user@realm!name=<secret>`). The secret is stored in the login Keychain (generic password, service `it.zenity.pxstation-mac.proxmox-token`); server settings (host, port, token ID, pinned fingerprint, cluster CA) in UserDefaults. Never log or persist the secret elsewhere. (SPICE tickets remain memory-only, §9.)
 - TLS for the API: macOS trust **or** the cluster CA learned from that host's `.vv` (`pve-root-ca`), with hostname check; or a leaf SHA-256 fingerprint the user explicitly pinned after seeing it. No skip-verification path.
 - Endpoints: `GET /cluster/resources?type=vm`, `GET /nodes/{node}/qemu/{vmid}/status/current`, `POST …/status/{start|shutdown|reboot|reset|stop|suspend|resume}`, `POST …/spiceproxy` (fresh connection file → parsed by `VVFileParser`, so it gets the same validation as a downloaded `.vv`). Reset/Stop require confirmation. Token needs VM.Audit, VM.PowerMgmt, VM.Console.
 

@@ -1,7 +1,7 @@
 import XCTest
 
 /// UI smoke tests. Session tests need a SPICE server and are not run here.
-final class SpiceClientUITests: XCTestCase {
+final class PxStationUITests: XCTestCase {
     override func setUp() {
         continueAfterFailure = false
     }

@@ -12,7 +12,7 @@ public final class USBDeviceMonitor: @unchecked Sendable {
     // State is confined to `queue`; the stream continuation is thread-safe.
     public let devices: AsyncStream<[HostUSBDevice]>
     private let sink: AsyncStream<[HostUSBDevice]>.Continuation
-    private let queue = DispatchQueue(label: "com.pawelwiecaszek.spiceclient.usb-monitor")
+    private let queue = DispatchQueue(label: "it.zenity.pxstation-mac.usb-monitor")
     private var port: IONotificationPortRef?
     private var addedIterator: io_iterator_t = 0
     private var removedIterator: io_iterator_t = 0

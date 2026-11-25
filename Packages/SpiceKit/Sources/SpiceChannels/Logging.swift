@@ -7,7 +7,7 @@ import os
 /// Messages passed to `info`/`debug`/`error` must not contain tickets or host names —
 /// they are logged as public. Use `sensitive(_:)` for anything identifying a host.
 public struct ChannelLogger: Sendable {
-    public static let subsystem = "com.pawelwiecaszek.spiceclient"
+    public static let subsystem = "it.zenity.pxstation-mac"
 
     #if canImport(os)
     private let logger: Logger

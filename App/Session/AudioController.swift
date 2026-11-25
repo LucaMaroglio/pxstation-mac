@@ -25,7 +25,7 @@ final class AudioController {
     @ObservationIgnored private var guestVolume: Float = 1
     @ObservationIgnored private var guestMuted = false
     @ObservationIgnored private var tasks: [Task<Void, Never>] = []
-    @ObservationIgnored private let log = Logger(subsystem: "com.pawelwiecaszek.spiceclient", category: "audio")
+    @ObservationIgnored private let log = Logger(subsystem: "it.zenity.pxstation-mac", category: "audio")
     @ObservationIgnored private let opusDecode = OpusCodec.canDecode
     /// Microphone audio goes out as raw PCM: spice-server only accepts Opus input when it
     /// was built with Opus, which the client can't know in advance.
@@ -142,7 +142,7 @@ final class AudioController {
         }
         Task {
             guard await MicrophoneCapture.requestPermission() else {
-                errorMessage = String(localized: "MacOS Spice Client isn’t allowed to use the microphone. Allow it in System Settings › Privacy & Security › Microphone.")
+                errorMessage = String(localized: "PxStation Mac isn’t allowed to use the microphone. Allow it in System Settings › Privacy & Security › Microphone.")
                 return
             }
             microphoneEnabled = true
