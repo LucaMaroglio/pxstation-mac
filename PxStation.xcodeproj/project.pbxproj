@@ -165,6 +165,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				it,
 				Base,
 			);
 			mainGroup = A1B2C3D40000000000001001;
@@ -303,7 +304,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = it.zenity.pxstation-mac;
 				PRODUCT_MODULE_NAME = PxStation;
 				PRODUCT_NAME = "PxStation Mac";
@@ -335,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = it.zenity.pxstation-mac;
 				PRODUCT_MODULE_NAME = PxStation;
 				PRODUCT_NAME = "PxStation Mac";
@@ -350,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = it.zenity.pxstation-mac.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -365,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = it.zenity.pxstation-mac.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;

@@ -41,13 +41,11 @@ public enum HostUSBError: Error, Equatable, Sendable, LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .notFound:
-            "The USB device is no longer connected."
+            String(localized: "The USB device is no longer connected.", bundle: .main)
         case .inUseByMacOS:
-            "macOS is using this device (for example as a disk, keyboard or card reader), so it can't be "
-                + "redirected. Eject or quit the app using it and try again; some devices can only be "
-                + "redirected by apps with Apple's virtualization device-access entitlement."
+            String(localized: "macOS is using this device (for example as a disk, keyboard or card reader), so it can't be redirected. Eject or quit the app using it and try again; some devices can only be redirected by apps with Apple's virtualization device-access entitlement.", bundle: .main)
         case .openFailed(let reason):
-            "The USB device could not be opened (\(reason))."
+            String(localized: "The USB device could not be opened (\(reason)).", bundle: .main)
         }
     }
 }

@@ -26,11 +26,11 @@ public enum MacSmartcardError: Error, Equatable, Sendable, LocalizedError {
 
     public var errorDescription: String? {
         switch self {
-        case .noAccess: "This Mac doesn't allow the app to use smartcards."
-        case .readerGone: "The smartcard reader is no longer connected."
-        case .noCard: "There is no usable card in the reader."
-        case .sessionRefused(let reason): "macOS didn't hand over the card (\(reason)). Close apps using it and try again."
-        case .transmitFailed(let reason): "The card stopped responding (\(reason))."
+        case .noAccess: String(localized: "This Mac doesn't allow the app to use smartcards.", bundle: .main)
+        case .readerGone: String(localized: "The smartcard reader is no longer connected.", bundle: .main)
+        case .noCard: String(localized: "There is no usable card in the reader.", bundle: .main)
+        case .sessionRefused(let reason): String(localized: "macOS didn't hand over the card (\(reason)). Close apps using it and try again.", bundle: .main)
+        case .transmitFailed(let reason): String(localized: "The card stopped responding (\(reason)).", bundle: .main)
         }
     }
 }

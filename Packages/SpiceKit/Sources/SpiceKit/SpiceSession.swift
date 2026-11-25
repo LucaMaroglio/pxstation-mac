@@ -62,11 +62,11 @@ public struct SessionFailure: Error, Sendable, Equatable, LocalizedError {
                 self.init(message: transport.localizedDescription)
             }
         case ChannelError.serverDisconnected:
-            self.init(message: "The server ended the session.", recovery: .manual)
+            self.init(message: String(localized: "The server ended the session.", bundle: .main), recovery: .manual)
         case ChannelError.migrationUnsupported:
-            self.init(message: "The virtual machine is migrating to another host.", recovery: .automatic)
+            self.init(message: String(localized: "The virtual machine is migrating to another host.", bundle: .main), recovery: .automatic)
         default:
-            self.init(message: "The session ended unexpectedly (\(error)).", recovery: .manual)
+            self.init(message: String(localized: "The session ended unexpectedly (\(String(describing: error))).", bundle: .main), recovery: .manual)
         }
     }
 }
@@ -421,14 +421,14 @@ public actor SpiceSession {
 
         public var errorDescription: String? {
             switch self {
-            case .agentUnavailable: "The SPICE guest agent (spice-vdagent) isn’t running in the virtual machine."
-            case .disabledByGuest: "File transfer is disabled in the virtual machine."
-            case .rejected(.notEnoughSpace): "There isn’t enough free space in the virtual machine."
-            case .rejected(.sessionLocked): "The virtual machine’s session is locked."
-            case .rejected(.cancelled): "The transfer was cancelled."
-            case .rejected: "The virtual machine couldn’t save the file."
-            case .notAFile: "Only files can be sent, not folders."
-            case .unreadable: "The file couldn’t be read."
+            case .agentUnavailable: String(localized: "The SPICE guest agent (spice-vdagent) isn’t running in the virtual machine.", bundle: .main)
+            case .disabledByGuest: String(localized: "File transfer is disabled in the virtual machine.", bundle: .main)
+            case .rejected(.notEnoughSpace): String(localized: "There isn’t enough free space in the virtual machine.", bundle: .main)
+            case .rejected(.sessionLocked): String(localized: "The virtual machine’s session is locked.", bundle: .main)
+            case .rejected(.cancelled): String(localized: "The transfer was cancelled.", bundle: .main)
+            case .rejected: String(localized: "The virtual machine couldn’t save the file.", bundle: .main)
+            case .notAFile: String(localized: "Only files can be sent, not folders.", bundle: .main)
+            case .unreadable: String(localized: "The file couldn’t be read.", bundle: .main)
             }
         }
     }

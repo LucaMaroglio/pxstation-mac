@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/PxStationIcon.png" width="128" height="128" alt="PxStation Mac icon">
+  <img src="docs/PxStationLogo.png" width="128" height="128" alt="PxStation Mac icon">
 </p>
 
 <h1 align="center">PxStation Mac</h1>
@@ -129,6 +129,8 @@ upstream as pull requests.
 
 Changes in PxStation Mac:
 - New name, icon and logo; About and Help windows.
+- Interface in English and Italian, selectable in Settings › General (default: system language,
+  English if the system language isn't supported).
 - Own bundle identifier (`it.zenity.pxstation-mac`), so it can be installed next to the
   original app. Proxmox API tokens saved by the original app must be entered again.
 - Proxmox: the CA returned by the `spiceproxy` API is no longer unescaped twice.

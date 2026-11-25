@@ -12,7 +12,7 @@ public enum ProxmoxKeychain {
         public var errorDescription: String? {
             if case .status(let status) = self {
                 let message = SecCopyErrorMessageString(status, nil) as String? ?? "error \(status)"
-                return "Keychain: \(message)"
+                return String(localized: "Keychain: \(message)", bundle: .main)
             }
             return nil
         }

@@ -37,38 +37,37 @@ public enum TransportError: Error, Equatable, Sendable, LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .connectionFailed(let reason):
-            "Could not connect to the server (\(reason))."
+            String(localized: "Could not connect to the server (\(reason)).", bundle: .main)
         case .closed:
-            "The server closed the connection."
+            String(localized: "The server closed the connection.", bundle: .main)
         case .timedOut:
-            "The connection timed out."
+            String(localized: "The connection timed out.", bundle: .main)
         case .tlsVerificationFailed(let reason):
-            "The server’s certificate could not be verified (\(reason))."
+            String(localized: "The server’s certificate could not be verified (\(reason)).", bundle: .main)
         case .proxyRefused(let status) where status == 401 || status == 403:
-            "The proxy rejected the connection (HTTP \(status)). With Proxmox this usually means the "
-                + "connection file has expired: click SPICE again and open the new file right away."
+            String(localized: "The proxy rejected the connection (HTTP \(status)). With Proxmox this usually means the connection file has expired: click SPICE again and open the new file right away.", bundle: .main)
         case .proxyRefused(let status):
-            "The proxy refused the connection (HTTP \(status))."
+            String(localized: "The proxy refused the connection (HTTP \(status)).", bundle: .main)
         case .proxyProtocolError:
-            "The proxy sent an invalid response."
+            String(localized: "The proxy sent an invalid response.", bundle: .main)
         case .linkRejected(let error):
-            "The server rejected the connection (\(error))."
+            String(localized: "The server rejected the connection (\(String(describing: error))).", bundle: .main)
         case .authenticationFailed(.permissionDenied):
-            "The ticket has expired or is invalid. Download a fresh connection file and try again."
+            String(localized: "The ticket has expired or is invalid. Download a fresh connection file and try again.", bundle: .main)
         case .authenticationFailed(let error):
-            "Authentication failed (\(error))."
+            String(localized: "Authentication failed (\(String(describing: error))).", bundle: .main)
         case .unsupportedServer(let reason):
-            "The server is not supported: \(reason)."
+            String(localized: "The server is not supported: \(reason).", bundle: .main)
         case .protocolViolation(let reason):
-            "The server sent unexpected data (\(reason))."
+            String(localized: "The server sent unexpected data (\(reason)).", bundle: .main)
         case .ticketTooLong:
-            "The ticket in the connection file is too long."
+            String(localized: "The ticket in the connection file is too long.", bundle: .main)
         case .encryptionFailed:
-            "Could not encrypt the ticket for the server."
+            String(localized: "Could not encrypt the ticket for the server.", bundle: .main)
         case .insecureConfiguration(let reason):
-            "The connection file’s security settings can’t be met (\(reason)). Not connecting."
+            String(localized: "The connection file’s security settings can’t be met (\(reason)). Not connecting.", bundle: .main)
         case .noRoute:
-            "The connection file doesn’t specify a port for this connection."
+            String(localized: "The connection file doesn’t specify a port for this connection.", bundle: .main)
         }
     }
 }

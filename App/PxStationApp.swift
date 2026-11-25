@@ -46,6 +46,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        _ = AppLanguage.selectedAtLaunch  // remember the language this instance runs in
         // Files opened at launch arrive before this point; otherwise show the welcome window.
         if !openedFileAtLaunch && !SessionWindowManager.shared.hasSessions {
             WelcomeWindow.shared.show()

@@ -295,6 +295,15 @@ Goal: pick an `.iso` on the Mac and have it appear in the guest as a CD/DVD driv
 - One type per file for anything over ~150 lines. Keep files < 600 lines.
 - Public API of `SpiceKit` gets DocC comments.
 - Prefer value types; classes only for identity/reference semantics (renderer, texture caches).
+- **Localization:** every user-visible string goes through the String Catalog
+  `App/Resources/Localizable.xcstrings` (source language English; shipped: English, Italian).
+  In the app use SwiftUI string literals or `String(localized:)`; in `SpiceKit` use
+  `String(localized: "…", bundle: .main)` — the package has no resources of its own, its
+  translations live in the app catalog as manually added entries. Info.plist strings live in
+  `App/Resources/InfoPlist.xcstrings`. Every new string needs its Italian translation. The
+  user picks the language in Settings › General (stored as `AppleLanguages` in the app's
+  defaults domain, see `App/Session/AppLanguage.swift`); without a choice the system order
+  applies, falling back to English.
 - Performance-sensitive code (`SpiceCodecs`, display apply path) gets a benchmark test (`swift test --filter Benchmark`) and must not allocate per pixel/per message in the steady state.
 
 ---

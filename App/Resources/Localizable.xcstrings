@@ -1,0 +1,2732 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ (acts as a keyboard)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (agisce come tastiera)"
+          }
+        }
+      }
+    },
+    "%@ (in use by macOS)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (in uso da macOS)"
+          }
+        }
+      }
+    },
+    "%@ Help": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aiuto di %@"
+          }
+        }
+      }
+    },
+    "%@ is a fork of %@ by %@, released under the MIT license.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ è un fork di %2$@ di %3$@, rilasciato con licenza MIT."
+          }
+        }
+      }
+    },
+    "%@ · %@:%lld": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@:%3$lld"
+          }
+        }
+      }
+    },
+    "%@ — %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ — %2$@"
+          }
+        }
+      }
+    },
+    "%@ — Display %lld": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ — Schermo %2$lld"
+          }
+        }
+      }
+    },
+    "%lld more waiting": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "altri %lld in attesa"
+          }
+        }
+      }
+    },
+    "%lld of %lld USB slots free": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld di %2$lld slot USB liberi"
+          }
+        }
+      }
+    },
+    "%lld · %@ · %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld · %2$@ · %3$@"
+          }
+        }
+      }
+    },
+    "8006": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "8006"
+          }
+        }
+      }
+    },
+    "A card is already shared. Stop sharing it first.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una carta è già condivisa. Interrompi prima la sua condivisione."
+          }
+        }
+      }
+    },
+    "About %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioni su %@"
+          }
+        }
+      }
+    },
+    "About this project": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioni sul progetto"
+          }
+        }
+      }
+    },
+    "Access denied": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesso negato"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi"
+          }
+        }
+      }
+    },
+    "Add a Proxmox server with an API token to start, stop and connect to virtual machines from here.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi un server Proxmox con un token API per avviare, arrestare e connetterti alle macchine virtuali da qui."
+          }
+        }
+      }
+    },
+    "Add Server…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi server…"
+          }
+        }
+      }
+    },
+    "Allow the virtual machine to use your microphone": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consenti alla macchina virtuale di usare il microfono"
+          }
+        }
+      }
+    },
+    "Appears in the VM as a USB smartcard reader (uses one USB slot).": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compare nella VM come lettore di smartcard USB (usa uno slot USB)."
+          }
+        }
+      }
+    },
+    "Applies to new sessions. The microphone is off in every session until you switch it on in the toolbar.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vale per le nuove sessioni. Il microfono è disattivato in ogni sessione finché non lo attivi dalla barra strumenti."
+          }
+        }
+      }
+    },
+    "Attempt %lld of %lld": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tentativo %1$lld di %2$lld"
+          }
+        }
+      }
+    },
+    "Attempt %lld of %lld in %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tentativo %1$lld di %2$lld tra %3$@"
+          }
+        }
+      }
+    },
+    "Audio": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Audio"
+          }
+        }
+      }
+    },
+    "Authentication failed (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autenticazione non riuscita (%@)."
+          }
+        }
+      }
+    },
+    "blocked by the connection file": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bloccato dal file di connessione"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
+          }
+        }
+      }
+    },
+    "Can’t connect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile connettersi"
+          }
+        }
+      }
+    },
+    "Can’t open “%@”": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile aprire «%@»"
+          }
+        }
+      }
+    },
+    "Choose a disc image to insert into the virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli un'immagine disco da inserire nella macchina virtuale"
+          }
+        }
+      }
+    },
+    "Choose a virt-viewer connection file (.vv)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli un file di connessione virt-viewer (.vv)"
+          }
+        }
+      }
+    },
+    "Choose files to copy into the virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli i file da copiare nella macchina virtuale"
+          }
+        }
+      }
+    },
+    "Clipboard": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appunti"
+          }
+        }
+      }
+    },
+    "Close Window": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi finestra"
+          }
+        }
+      }
+    },
+    "Compare it with Proxmox › node › System › Certificates (pve-ssl.pem) before trusting it.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confrontalo con Proxmox › nodo › System › Certificates (pve-ssl.pem) prima di considerarlo attendibile."
+          }
+        }
+      }
+    },
+    "Connect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connetti"
+          }
+        }
+      }
+    },
+    "Connect Anyway": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connetti comunque"
+          }
+        }
+      }
+    },
+    "Connect with partial encryption?": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connettersi con cifratura parziale?"
+          }
+        }
+      }
+    },
+    "Connect without encryption?": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connettersi senza cifratura?"
+          }
+        }
+      }
+    },
+    "Connected: %lld virtual machines visible.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connesso: macchine virtuali visibili: %lld."
+          }
+        }
+      }
+    },
+    "Connecting to a virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connettersi a una macchina virtuale"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione in corso…"
+          }
+        }
+      }
+    },
+    "Connection": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione"
+          }
+        }
+      }
+    },
+    "Connection lost": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione persa"
+          }
+        }
+      }
+    },
+    "Connection to %@ ended. %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione a %1$@ terminata. %2$@"
+          }
+        }
+      }
+    },
+    "Connection to %@ lost. Reconnecting.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione a %@ persa. Riconnessione in corso."
+          }
+        }
+      }
+    },
+    "Copy files into the virtual machine (or drag them onto its screen). Needs spice-vdagent.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia file nella macchina virtuale (o trascinali sul suo schermo). Richiede spice-vdagent."
+          }
+        }
+      }
+    },
+    "Copying files into the virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia dei file nella macchina virtuale"
+          }
+        }
+      }
+    },
+    "Copying “%@” (%lld %%)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia di «%1$@» (%2$lld%%)"
+          }
+        }
+      }
+    },
+    "Copying…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia in corso…"
+          }
+        }
+      }
+    },
+    "Could not connect to the server (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile connettersi al server (%@)."
+          }
+        }
+      }
+    },
+    "Could not encrypt the ticket for the server.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile cifrare il ticket per il server."
+          }
+        }
+      }
+    },
+    "Couldn’t reach the Proxmox server (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile raggiungere il server Proxmox (%@)."
+          }
+        }
+      }
+    },
+    "Devices on this Mac": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivi su questo Mac"
+          }
+        }
+      }
+    },
+    "Disc Image": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immagine disco"
+          }
+        }
+      }
+    },
+    "Disconnected": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disconnesso"
+          }
+        }
+      }
+    },
+    "Display": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schermo"
+          }
+        }
+      }
+    },
+    "Display %lld of %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schermo %1$lld di %2$@"
+          }
+        }
+      }
+    },
+    "Edit…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica…"
+          }
+        }
+      }
+    },
+    "Eject “%@”": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espelli «%@»"
+          }
+        }
+      }
+    },
+    "File Transfer": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trasferimento file"
+          }
+        }
+      }
+    },
+    "File transfer is disabled in the virtual machine.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il trasferimento di file è disattivato nella macchina virtuale."
+          }
+        }
+      }
+    },
+    "Full Screen": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schermo intero"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generali"
+          }
+        }
+      }
+    },
+    "Host": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Host"
+          }
+        }
+      }
+    },
+    "In Proxmox: VM › Hardware › Add › USB Device › Spice Port (one per device).": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Proxmox: VM › Hardware › Add › USB Device › Spice Port (uno per dispositivo)."
+          }
+        }
+      }
+    },
+    "In the virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nella macchina virtuale"
+          }
+        }
+      }
+    },
+    "Insert a disc image (.iso) into the virtual machine as a CD/DVD drive": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci un'immagine disco (.iso) nella macchina virtuale come unità CD/DVD"
+          }
+        }
+      }
+    },
+    "Install spice-vdagent (Linux) or the SPICE guest tools (Windows) for the shared clipboard, file copy, a seamless pointer and automatic resolution. USB devices, disc images and smartcards each need a free Spice Port USB device in the VM's hardware.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installa spice-vdagent (Linux) o gli SPICE guest tools (Windows) per gli appunti condivisi, la copia di file, un puntatore senza interruzioni e la risoluzione automatica. Dispositivi USB, immagini disco e smartcard richiedono ciascuno un dispositivo USB «Spice Port» libero nell'hardware della VM."
+          }
+        }
+      }
+    },
+    "Keyboard": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastiera"
+          }
+        }
+      }
+    },
+    "Keyboards and mice can’t be redirected.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastiere e mouse non possono essere reindirizzati."
+          }
+        }
+      }
+    },
+    "Keychain: %@": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portachiavi: %@"
+          }
+        }
+      }
+    },
+    "Language": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lingua"
+          }
+        }
+      }
+    },
+    "Loading…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caricamento…"
+          }
+        }
+      }
+    },
+    "macOS didn't hand over the card (%@). Close apps using it and try again.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS non ha ceduto la carta (%@). Chiudi le app che la usano e riprova."
+          }
+        }
+      }
+    },
+    "macOS is using this device (for example as a disk, keyboard or card reader), so it can't be redirected. Eject or quit the app using it and try again; some devices can only be redirected by apps with Apple's virtualization device-access entitlement.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS sta usando questo dispositivo (ad esempio come disco, tastiera o lettore di carte), quindi non può essere reindirizzato. Espellilo o chiudi l'app che lo usa e riprova; alcuni dispositivi possono essere reindirizzati solo da app con l'entitlement Apple di accesso ai dispositivi per la virtualizzazione."
+          }
+        }
+      }
+    },
+    "Metal is not available on this Mac.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metal non è disponibile su questo Mac."
+          }
+        }
+      }
+    },
+    "Microphone": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microfono"
+          }
+        }
+      }
+    },
+    "Microphone allowed; sent only while the virtual machine records.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microfono consentito; viene inviato solo mentre la macchina virtuale registra."
+          }
+        }
+      }
+    },
+    "Microphone Off": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microfono disattivato"
+          }
+        }
+      }
+    },
+    "Microphone On": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microfono attivo"
+          }
+        }
+      }
+    },
+    "Mount ISO…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monta ISO…"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome"
+          }
+        }
+      }
+    },
+    "no API token secret saved": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nessun segreto del token API salvato"
+          }
+        }
+      }
+    },
+    "No free USB slot for the smartcard reader. Disconnect a USB device or ISO first.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuno slot USB libero per il lettore di smartcard. Scollega prima un dispositivo USB o una ISO."
+          }
+        }
+      }
+    },
+    "No free USB slot for “%@”. Disconnect another device first.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuno slot USB libero per «%@». Scollega prima un altro dispositivo."
+          }
+        }
+      }
+    },
+    "No Proxmox Servers": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun server Proxmox"
+          }
+        }
+      }
+    },
+    "No servers yet.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun server configurato."
+          }
+        }
+      }
+    },
+    "No smartcard readers on this Mac": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun lettore di smartcard su questo Mac"
+          }
+        }
+      }
+    },
+    "No USB devices found": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun dispositivo USB trovato"
+          }
+        }
+      }
+    },
+    "No virtual machines are visible to this API token. Give the token (not only its user) VM.Audit, VM.PowerMgmt and VM.Console, e.g. the PVEVMUser role on /vms, or turn off its privilege separation.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna macchina virtuale è visibile con questo token API. Assegna al token (non solo al suo utente) VM.Audit, VM.PowerMgmt e VM.Console, ad esempio il ruolo PVEVMUser su /vms, oppure disattiva la sua separazione dei privilegi."
+          }
+        }
+      }
+    },
+    "Off by default. When on, text and images you copy are shared both ways, and the virtual machine can read your Mac clipboard while its window is active — including what you copied before connecting. Needs spice-vdagent in the guest.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disattivato per impostazione predefinita. Se attivo, testo e immagini copiati sono condivisi in entrambe le direzioni e la macchina virtuale può leggere gli appunti del Mac mentre la sua finestra è attiva, compreso ciò che hai copiato prima di connetterti. Richiede spice-vdagent nel guest."
+          }
+        }
+      }
+    },
+    "Office cluster": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cluster ufficio"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Only files can be sent, not folders.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si possono inviare solo file, non cartelle."
+          }
+        }
+      }
+    },
+    "Open a connection file": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri un file di connessione"
+          }
+        }
+      }
+    },
+    "Open a virt-viewer connection file (.vv) with File › Open Connection File… (⌘O), by double-clicking it in Finder or by dropping it on the welcome window. In Proxmox VE, click Console › SPICE: the browser downloads the file, whose ticket is valid for a few seconds and only once.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri un file di connessione virt-viewer (.vv) con File › Apri file di connessione… (⌘O), con un doppio clic nel Finder o trascinandolo sulla finestra di benvenuto. In Proxmox VE fai clic su Console › SPICE: il browser scarica il file, il cui ticket è valido per pochi secondi e una sola volta."
+          }
+        }
+      }
+    },
+    "Open a virt-viewer connection file (.vv), for example the one your browser downloads when you click “SPICE” in Proxmox VE.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri un file di connessione virt-viewer (.vv), ad esempio quello che il browser scarica quando fai clic su «SPICE» in Proxmox VE."
+          }
+        }
+      }
+    },
+    "Open Connection File…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri file di connessione…"
+          }
+        }
+      }
+    },
+    "Open Settings…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni…"
+          }
+        }
+      }
+    },
+    "Opens %@ in a new window": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apre %@ in una nuova finestra"
+          }
+        }
+      }
+    },
+    "or drop a .vv file here": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "oppure trascina qui un file .vv"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sospendi"
+          }
+        }
+      }
+    },
+    "paused": {
+      "comment": "Proxmox VM state",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "in pausa"
+          }
+        }
+      }
+    },
+    "Play the virtual machine’s sound": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riproduci l'audio della macchina virtuale"
+          }
+        }
+      }
+    },
+    "Port": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porta"
+          }
+        }
+      }
+    },
+    "Power": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alimentazione"
+          }
+        }
+      }
+    },
+    "Power control needs a Proxmox API token for this server.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il controllo dell'alimentazione richiede un token API Proxmox per questo server."
+          }
+        }
+      }
+    },
+    "Power options for %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opzioni di alimentazione per %@"
+          }
+        }
+      }
+    },
+    "Proxmox": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxmox"
+          }
+        }
+      }
+    },
+    "Proxmox API access": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesso alle API di Proxmox"
+          }
+        }
+      }
+    },
+    "Proxmox rejected the API token. Check the token ID and secret.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxmox ha rifiutato il token API. Controlla ID e segreto del token."
+          }
+        }
+      }
+    },
+    "Proxmox returned HTTP %lld.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxmox ha restituito HTTP %lld."
+          }
+        }
+      }
+    },
+    "Proxmox returned HTTP %lld: %@.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxmox ha restituito HTTP %1$lld: %2$@."
+          }
+        }
+      }
+    },
+    "Proxmox sent an unexpected response.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxmox ha inviato una risposta inattesa."
+          }
+        }
+      }
+    },
+    "Proxmox VE servers": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server Proxmox VE"
+          }
+        }
+      }
+    },
+    "pve1.example.com": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pve1.example.com"
+          }
+        }
+      }
+    },
+    "PxStation Mac isn’t allowed to use the microphone. Allow it in System Settings › Privacy & Security › Microphone.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PxStation Mac non è autorizzato a usare il microfono. Consentilo in Impostazioni di Sistema › Privacy e sicurezza › Microfono."
+          }
+        }
+      }
+    },
+    "PxStation Mac project page:": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pagina del progetto PxStation Mac:"
+          }
+        }
+      }
+    },
+    "Reboot": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riavvia"
+          }
+        }
+      }
+    },
+    "Reconnect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riconnetti"
+          }
+        }
+      }
+    },
+    "Reconnect automatically when the connection drops": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riconnetti automaticamente quando la connessione cade"
+          }
+        }
+      }
+    },
+    "Reconnected to %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riconnesso a %@"
+          }
+        }
+      }
+    },
+    "Reconnecting needs a new ticket. Click SPICE in Proxmox again, or add this server under Settings › Proxmox so the app can reconnect by itself.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per riconnettersi serve un nuovo ticket. Fai di nuovo clic su SPICE in Proxmox, oppure aggiungi questo server in Impostazioni › Proxmox in modo che l'app possa riconnettersi da sola."
+          }
+        }
+      }
+    },
+    "Reconnecting to %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riconnessione a %@"
+          }
+        }
+      }
+    },
+    "Reconnecting…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riconnessione in corso…"
+          }
+        }
+      }
+    },
+    "Redirect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reindirizza"
+          }
+        }
+      }
+    },
+    "Redirect USB devices from this Mac to the virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reindirizza dispositivi USB da questo Mac alla macchina virtuale"
+          }
+        }
+      }
+    },
+    "Redirect “%@”?": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reindirizzare «%@»?"
+          }
+        }
+      }
+    },
+    "Refresh": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiorna"
+          }
+        }
+      }
+    },
+    "Release Cursor": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rilascia cursore"
+          }
+        }
+      }
+    },
+    "Release the captured pointer and keys": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rilascia il puntatore e la tastiera catturati"
+          }
+        }
+      }
+    },
+    "Remote desktop": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desktop remoto"
+          }
+        }
+      }
+    },
+    "Remove %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi %@"
+          }
+        }
+      }
+    },
+    "Remove this server and delete its token from the Keychain": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi il server ed elimina il suo token dal Portachiavi"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta"
+          }
+        }
+      }
+    },
+    "Reset “%@”?": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimpostare «%@»?"
+          }
+        }
+      }
+    },
+    "Reset…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta…"
+          }
+        }
+      }
+    },
+    "Resize the guest to fit the window": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adatta la risoluzione del guest alla finestra"
+          }
+        }
+      }
+    },
+    "Resizing needs the SPICE guest agent (spice-vdagent) in the virtual machine.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il ridimensionamento richiede l'agente guest SPICE (spice-vdagent) nella macchina virtuale."
+          }
+        }
+      }
+    },
+    "Restart %@ to use the new language. Open sessions will be closed.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riavvia %@ per usare la nuova lingua. Le sessioni aperte verranno chiuse."
+          }
+        }
+      }
+    },
+    "Restart Now": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riavvia ora"
+          }
+        }
+      }
+    },
+    "Resume": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprendi"
+          }
+        }
+      }
+    },
+    "Resume & Connect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprendi e connetti"
+          }
+        }
+      }
+    },
+    "Retries for about two minutes, waiting while the Mac is offline. Proxmox sessions get a fresh ticket through the API (needs the server under Proxmox); a downloaded connection file’s ticket works only once.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprova per circa due minuti, attendendo finché il Mac è offline. Le sessioni Proxmox ottengono un nuovo ticket tramite le API (serve il server in Proxmox); il ticket di un file di connessione scaricato funziona una sola volta."
+          }
+        }
+      }
+    },
+    "running": {
+      "comment": "Proxmox VM state",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "in esecuzione"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva"
+          }
+        }
+      }
+    },
+    "Screen of %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schermo di %@"
+          }
+        }
+      }
+    },
+    "Screen of the virtual machine. Keys you type and clicks go to the virtual machine; drop files here to copy them into it.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schermo della macchina virtuale. Tasti e clic vengono inviati alla macchina virtuale; trascina qui dei file per copiarli al suo interno."
+          }
+        }
+      }
+    },
+    "Send Ctrl+Alt+Del": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invia Ctrl+Alt+Canc"
+          }
+        }
+      }
+    },
+    "Send Ctrl+Alt+Del to the guest": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invia Ctrl+Alt+Canc al guest"
+          }
+        }
+      }
+    },
+    "Send Files…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invia file…"
+          }
+        }
+      }
+    },
+    "Send ⌘ to the guest as the Windows key": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invia ⌘ al guest come tasto Windows"
+          }
+        }
+      }
+    },
+    "Session": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessione"
+          }
+        }
+      }
+    },
+    "Session ended": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessione terminata"
+          }
+        }
+      }
+    },
+    "Set Up Proxmox Access…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura accesso Proxmox…"
+          }
+        }
+      }
+    },
+    "SHA-256: %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SHA-256: %@"
+          }
+        }
+      }
+    },
+    "Share a smartcard or security key (smartcard function) with the virtual machine": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi una smartcard o una chiave di sicurezza (funzione smartcard) con la macchina virtuale"
+          }
+        }
+      }
+    },
+    "Share the clipboard with virtual machines": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi gli appunti con le macchine virtuali"
+          }
+        }
+      }
+    },
+    "Shared through the VM's smartcard reader.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condivisa tramite il lettore di smartcard della VM."
+          }
+        }
+      }
+    },
+    "Shut Down": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spegni"
+          }
+        }
+      }
+    },
+    "Smartcard": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smartcard"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia"
+          }
+        }
+      }
+    },
+    "Start & Connect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia e connetti"
+          }
+        }
+      }
+    },
+    "Start & Reconnect": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia e riconnetti"
+          }
+        }
+      }
+    },
+    "Start, shut down or reboot the virtual machine (Proxmox)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia, spegni o riavvia la macchina virtuale (Proxmox)"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arresta"
+          }
+        }
+      }
+    },
+    "Stop “%@”?": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrestare «%@»?"
+          }
+        }
+      }
+    },
+    "stopped": {
+      "comment": "Proxmox VM state",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "arrestata"
+          }
+        }
+      }
+    },
+    "Stop…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arresta…"
+          }
+        }
+      }
+    },
+    "suspended": {
+      "comment": "Proxmox VM state",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sospesa"
+          }
+        }
+      }
+    },
+    "System default (%@)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Predefinita di sistema (%@)"
+          }
+        }
+      }
+    },
+    "System default follows the language order in System Settings › General › Language & Region; English is used if none of those languages is available.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La lingua predefinita segue l'ordine delle lingue in Impostazioni di Sistema › Generali › Lingua e Zona; se nessuna di quelle lingue è disponibile viene usato l'inglese."
+          }
+        }
+      }
+    },
+    "The API token isn’t allowed to do this (%@). It needs VM.Audit, VM.PowerMgmt and VM.Console on the VM.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il token API non è autorizzato a eseguire questa operazione (%@). Servono VM.Audit, VM.PowerMgmt e VM.Console sulla VM."
+          }
+        }
+      }
+    },
+    "The card didn't identify itself.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La carta non si è identificata."
+          }
+        }
+      }
+    },
+    "The card stopped responding (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La carta ha smesso di rispondere (%@)."
+          }
+        }
+      }
+    },
+    "The connection file could not be read.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile leggere il file di connessione."
+          }
+        }
+      }
+    },
+    "The connection file doesn’t allow “%@” to be shared with this virtual machine.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione non consente di condividere «%@» con questa macchina virtuale."
+          }
+        }
+      }
+    },
+    "The connection file doesn’t specify a port for this connection.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione non specifica una porta per questa connessione."
+          }
+        }
+      }
+    },
+    "The connection file has an invalid value for “%@”.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione ha un valore non valido per «%@»."
+          }
+        }
+      }
+    },
+    "The connection file has no [virt-viewer] section.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione non ha una sezione [virt-viewer]."
+          }
+        }
+      }
+    },
+    "The connection file is missing the required “%@” entry.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nel file di connessione manca la voce obbligatoria «%@»."
+          }
+        }
+      }
+    },
+    "The connection file is not valid UTF-8 text.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione non è un testo UTF-8 valido."
+          }
+        }
+      }
+    },
+    "The connection file specifies neither a port nor a TLS port.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione non specifica né una porta né una porta TLS."
+          }
+        }
+      }
+    },
+    "The connection file uses the “%@” protocol. Only SPICE is supported.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file di connessione usa il protocollo «%@». È supportato solo SPICE."
+          }
+        }
+      }
+    },
+    "The connection file’s security settings can’t be met (%@). Not connecting.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le impostazioni di sicurezza del file di connessione non possono essere rispettate (%@). Connessione annullata."
+          }
+        }
+      }
+    },
+    "The connection timed out.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo scaduto per la connessione."
+          }
+        }
+      }
+    },
+    "The file couldn’t be read.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile leggere il file."
+          }
+        }
+      }
+    },
+    "The file is too large to be a connection file.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il file è troppo grande per essere un file di connessione."
+          }
+        }
+      }
+    },
+    "The microphone couldn’t be started.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile avviare il microfono."
+          }
+        }
+      }
+    },
+    "The Proxmox server settings are invalid (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le impostazioni del server Proxmox non sono valide (%@)."
+          }
+        }
+      }
+    },
+    "The proxy refused the connection (HTTP %lld).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il proxy ha rifiutato la connessione (HTTP %lld)."
+          }
+        }
+      }
+    },
+    "The proxy rejected the connection (HTTP %lld). With Proxmox this usually means the connection file has expired: click SPICE again and open the new file right away.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il proxy ha respinto la connessione (HTTP %lld). Con Proxmox di solito significa che il file di connessione è scaduto: fai di nuovo clic su SPICE e apri subito il nuovo file."
+          }
+        }
+      }
+    },
+    "The proxy sent an invalid response.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il proxy ha inviato una risposta non valida."
+          }
+        }
+      }
+    },
+    "The server closed the connection.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il server ha chiuso la connessione."
+          }
+        }
+      }
+    },
+    "The server ended the session.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il server ha terminato la sessione."
+          }
+        }
+      }
+    },
+    "The server is not supported: %@.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il server non è supportato: %@."
+          }
+        }
+      }
+    },
+    "The server rejected the connection (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il server ha rifiutato la connessione (%@)."
+          }
+        }
+      }
+    },
+    "The server sent unexpected data (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il server ha inviato dati inattesi (%@)."
+          }
+        }
+      }
+    },
+    "The server’s certificate could not be verified (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile verificare il certificato del server (%@)."
+          }
+        }
+      }
+    },
+    "The server’s certificate isn’t trusted (SHA-256 %@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il certificato del server non è attendibile (SHA-256 %@)."
+          }
+        }
+      }
+    },
+    "The server’s certificate isn’t trusted by macOS or by a Proxmox CA this app has seen.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il certificato del server non è considerato attendibile né da macOS né da una CA Proxmox già vista da questa app."
+          }
+        }
+      }
+    },
+    "The session ended unexpectedly (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sessione è terminata in modo imprevisto (%@)."
+          }
+        }
+      }
+    },
+    "The smartcard reader is no longer connected.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il lettore di smartcard non è più collegato."
+          }
+        }
+      }
+    },
+    "The SPICE guest agent (spice-vdagent) isn’t running in the virtual machine.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'agente guest SPICE (spice-vdagent) non è in esecuzione nella macchina virtuale."
+          }
+        }
+      }
+    },
+    "The ticket has expired or is invalid. Download a fresh connection file and try again.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il ticket è scaduto o non è valido. Scarica un nuovo file di connessione e riprova."
+          }
+        }
+      }
+    },
+    "The ticket in the connection file can only be used once. Open a new connection file to reconnect.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il ticket del file di connessione si può usare una sola volta. Apri un nuovo file di connessione per riconnetterti."
+          }
+        }
+      }
+    },
+    "The ticket in the connection file is too long.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il ticket nel file di connessione è troppo lungo."
+          }
+        }
+      }
+    },
+    "The transfer was cancelled.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il trasferimento è stato annullato."
+          }
+        }
+      }
+    },
+    "The USB device could not be opened (%@).": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile aprire il dispositivo USB (%@)."
+          }
+        }
+      }
+    },
+    "The USB device is no longer connected.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il dispositivo USB non è più collegato."
+          }
+        }
+      }
+    },
+    "The virtual machine couldn’t save the file.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale non è riuscita a salvare il file."
+          }
+        }
+      }
+    },
+    "The virtual machine doesn’t accept “%@”.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale non accetta «%@»."
+          }
+        }
+      }
+    },
+    "The virtual machine is hearing your microphone. Click to turn it off.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale sta ricevendo il tuo microfono. Fai clic per disattivarlo."
+          }
+        }
+      }
+    },
+    "The virtual machine is migrating to another host.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale sta migrando su un altro host."
+          }
+        }
+      }
+    },
+    "The virtual machine is off": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale è spenta"
+          }
+        }
+      }
+    },
+    "The virtual machine is paused.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale è in pausa."
+          }
+        }
+      }
+    },
+    "The virtual machine isn’t running.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale non è in esecuzione."
+          }
+        }
+      }
+    },
+    "The virtual machine rejected “%@”.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La macchina virtuale ha rifiutato «%@»."
+          }
+        }
+      }
+    },
+    "The virtual machine's smartcard reader didn't respond.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il lettore di smartcard della macchina virtuale non ha risposto."
+          }
+        }
+      }
+    },
+    "The virtual machine's USB redirection isn't responding.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il reindirizzamento USB della macchina virtuale non risponde."
+          }
+        }
+      }
+    },
+    "The Virtual Machines window, the Power menu and reconnecting with a fresh ticket need an API token (Datacenter › Permissions › API Tokens) with the VM.Audit, VM.PowerMgmt and VM.Console privileges, for example the PVEVMUser role on /vms. The token secret is stored in the Keychain.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La finestra Macchine virtuali, il menu Alimentazione e la riconnessione con un nuovo ticket richiedono un token API (Datacenter › Permissions › API Tokens) con i privilegi VM.Audit, VM.PowerMgmt e VM.Console, ad esempio il ruolo PVEVMUser su /vms. Il segreto del token è conservato nel Portachiavi."
+          }
+        }
+      }
+    },
+    "The virtual machine’s session is locked.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sessione della macchina virtuale è bloccata."
+          }
+        }
+      }
+    },
+    "The virtual machine’s USB redirection isn’t responding.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il reindirizzamento USB della macchina virtuale non risponde."
+          }
+        }
+      }
+    },
+    "the VM didn’t start within a minute": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "la VM non si è avviata entro un minuto"
+          }
+        }
+      }
+    },
+    "There is no usable card in the reader.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nel lettore non c'è una carta utilizzabile."
+          }
+        }
+      }
+    },
+    "There isn’t enough free space in the virtual machine.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non c'è abbastanza spazio libero nella macchina virtuale."
+          }
+        }
+      }
+    },
+    "This device acts as a keyboard or mouse (security keys such as YubiKey do this to type one-time codes). While it is redirected, your Mac can't use it. If it is your only keyboard or mouse, you won't be able to type or point on the Mac until you disconnect it.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo dispositivo agisce come tastiera o mouse (le chiavi di sicurezza come YubiKey lo fanno per digitare codici monouso). Mentre è reindirizzato, il Mac non può usarlo. Se è la tua unica tastiera o mouse, non potrai digitare né usare il puntatore sul Mac finché non lo scolleghi."
+          }
+        }
+      }
+    },
+    "This is like pulling the power cord: unsaved work in the virtual machine is lost. Use Shut Down or Reboot to let the guest close cleanly.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È come staccare la spina: il lavoro non salvato nella macchina virtuale va perso. Usa Spegni o Riavvia per far chiudere il guest correttamente."
+          }
+        }
+      }
+    },
+    "This Mac doesn't allow the app to use smartcards.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo Mac non consente all'app di usare le smartcard."
+          }
+        }
+      }
+    },
+    "This virtual machine has no USB redirection slots.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa macchina virtuale non ha slot di reindirizzamento USB."
+          }
+        }
+      }
+    },
+    "Toggle full screen": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva/disattiva schermo intero"
+          }
+        }
+      }
+    },
+    "Toggle Full Screen": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva/disattiva schermo intero"
+          }
+        }
+      }
+    },
+    "Token ID": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID token"
+          }
+        }
+      }
+    },
+    "Token secret": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segreto del token"
+          }
+        }
+      }
+    },
+    "Token secret (leave empty to keep)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segreto del token (lascia vuoto per mantenerlo)"
+          }
+        }
+      }
+    },
+    "Trust This Certificate": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Considera attendibile"
+          }
+        }
+      }
+    },
+    "Try Now": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprova ora"
+          }
+        }
+      }
+    },
+    "USB": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "USB"
+          }
+        }
+      }
+    },
+    "USB Devices": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivi USB"
+          }
+        }
+      }
+    },
+    "USB smartcard readers aren't allowed for this virtual machine.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I lettori di smartcard USB non sono consentiti per questa macchina virtuale."
+          }
+        }
+      }
+    },
+    "Use Retina resolution (one guest pixel per screen pixel)": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa la risoluzione Retina (un pixel del guest per pixel dello schermo)"
+          }
+        }
+      }
+    },
+    "Used for Start, Shut Down, Reboot and the Virtual Machines window. Create an API token in Proxmox (Datacenter › Permissions › API Tokens) with VM.Audit, VM.PowerMgmt and VM.Console on your VMs. The secret is stored in your Keychain.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usati per Avvia, Spegni, Riavvia e per la finestra Macchine virtuali. Crea un token API in Proxmox (Datacenter › Permissions › API Tokens) con VM.Audit, VM.PowerMgmt e VM.Console sulle tue VM. Il segreto è conservato nel Portachiavi."
+          }
+        }
+      }
+    },
+    "user@pve!spice": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "user@pve!spice"
+          }
+        }
+      }
+    },
+    "Version %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versione %@"
+          }
+        }
+      }
+    },
+    "Virtual Machines": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Macchine virtuali"
+          }
+        }
+      }
+    },
+    "Virtual Machines window": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finestra Macchine virtuali"
+          }
+        }
+      }
+    },
+    "Virtual Machines…": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Macchine virtuali…"
+          }
+        }
+      }
+    },
+    "VM %lld didn’t answer Proxmox in time when asked for its SPICE details. Make sure its Display is set to SPICE and it isn’t busy with a backup or snapshot, then try again.": {
+      "comment": "Error message from SpiceKit (String(localized:bundle: .main))",
+      "extractionState": "manual",
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La VM %lld non ha risposto in tempo a Proxmox alla richiesta dei dati SPICE. Verifica che il suo Display sia impostato su SPICE e che non sia impegnata in un backup o snapshot, poi riprova."
+          }
+        }
+      }
+    },
+    "Waiting for a network connection.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In attesa di una connessione di rete."
+          }
+        }
+      }
+    },
+    "Welcome": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benvenuto"
+          }
+        }
+      }
+    },
+    "While shared, macOS can't use the card. Security keys share only their smartcard (PIV) function.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mentre è condivisa, macOS non può usare la carta. Le chiavi di sicurezza condividono solo la funzione smartcard (PIV)."
+          }
+        }
+      }
+    },
+    "With a Proxmox server added under Settings › Proxmox, the Virtual Machines window (⌘0) lists your VMs and connects to them without downloading a file.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopo aver aggiunto un server Proxmox in Impostazioni › Proxmox, la finestra Macchine virtuali (⌘0) elenca le VM e si connette senza scaricare alcun file."
+          }
+        }
+      }
+    },
+    "Working": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In corso"
+          }
+        }
+      }
+    },
+    "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+          }
+        }
+      }
+    },
+    "“%@” could not be connected (%@).": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile collegare «%1$@» (%2$@)."
+          }
+        }
+      }
+    },
+    "“%@” encrypts only some channels. These would travel unencrypted: %@. Anyone on the network path could see or alter that traffic, which may include the screen, your keystrokes or the clipboard. Only continue on a network you trust.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«%1$@» cifra solo alcuni canali. Questi viaggerebbero in chiaro: %2$@. Chiunque si trovi sul percorso di rete potrebbe vedere o alterare quel traffico, che può includere lo schermo, i tasti premuti o gli appunti. Continua solo su una rete di cui ti fidi."
+          }
+        }
+      }
+    },
+    "“%@” is inserted in the virtual CD-ROM drive": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«%@» è inserito nell'unità CD-ROM virtuale"
+          }
+        }
+      }
+    },
+    "“%@” offers no TLS port, so this connection isn’t encrypted or authenticated. Anyone on the network path can see the screen and your keystrokes, and could pretend to be the server. Only continue on a network you trust.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«%@» non offre una porta TLS, quindi questa connessione non è cifrata né autenticata. Chiunque si trovi sul percorso di rete può vedere lo schermo e i tasti che premi, e potrebbe fingersi il server. Continua solo su una rete di cui ti fidi."
+          }
+        }
+      }
+    },
+    "“%@” wasn’t copied: %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«%1$@» non è stato copiato: %2$@"
+          }
+        }
+      }
+    },
+    "⌘ is sent to the guest as the Windows key (Settings › General); ⌘Q, ⌘W, ⌘H, ⌘Tab and ⌘Space always stay with macOS.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘ viene inviato al guest come tasto Windows (Impostazioni › Generali); ⌘Q, ⌘W, ⌘H, ⌘Tab e ⌘Spazio restano sempre a macOS."
+          }
+        }
+      }
+    },
+    "⌘Q, ⌘W, ⌘H, ⌘Tab and ⌘Space always stay with macOS. Applies to new sessions.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘Q, ⌘W, ⌘H, ⌘Tab e ⌘Spazio restano sempre a macOS. Vale per le nuove sessioni."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -15,6 +15,7 @@ struct WelcomeView: View {
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.secondary)
                 .frame(maxWidth: 380)
+                .fixedSize(horizontal: false, vertical: true)
             Button("Open Connection File…") { SessionWindowManager.shared.presentOpenPanel() }
                 .buttonStyle(.glassProminent)
                 .controlSize(.large)
@@ -26,7 +27,7 @@ struct WelcomeView: View {
                 .foregroundStyle(.tertiary)
         }
         .padding(40)
-        .frame(width: 520, height: 400)
+        .frame(width: 520, height: 430)
         .background(isTargeted ? Color.accentColor.opacity(0.08) : .clear)
         .dropDestination(for: URL.self) { urls, _ in
             let files = urls.filter { $0.pathExtension.lowercased() == "vv" }
@@ -65,6 +66,7 @@ final class WelcomeWindow {
 struct SettingsView: View {
     @Bindable var settings: AppSettings
     @State private var tab = 0
+    @State private var language = AppLanguage.selected ?? ""
 
     var body: some View {
         TabView(selection: $tab) {
@@ -80,6 +82,30 @@ struct SettingsView: View {
 
     private var general: some View {
         Form {
+            Section("Language") {
+                Picker("Language", selection: $language) {
+                    Text("System default (\(AppLanguage.displayName(AppLanguage.systemLanguage)))").tag("")
+                    ForEach(AppLanguage.supported, id: \.self) { code in
+                        Text(verbatim: AppLanguage.displayName(code)).tag(code)
+                    }
+                }
+                .onChange(of: language) { _, newValue in
+                    AppLanguage.selected = newValue.isEmpty ? nil : newValue
+                }
+                if language != AppLanguage.selectedAtLaunch {
+                    HStack {
+                        Text("Restart \(AppInfo.name) to use the new language. Open sessions will be closed.")
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                        Button("Restart Now") { AppLanguage.relaunch() }
+                    }
+                } else {
+                    Text("System default follows the language order in System Settings › General › Language & Region; English is used if none of those languages is available.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+            }
             Section("Keyboard") {
                 Toggle("Send ⌘ to the guest as the Windows key", isOn: $settings.sendCommandKeyToGuest)
                 Text("⌘Q, ⌘W, ⌘H, ⌘Tab and ⌘Space always stay with macOS. Applies to new sessions.")

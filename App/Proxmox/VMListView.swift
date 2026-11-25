@@ -71,15 +71,26 @@ struct VMListView: View {
         }
     }
 
+    /// Proxmox reports the VM state as a raw English word; show it in the UI language.
+    static func statusText(_ status: String) -> String {
+        switch status {
+        case "running": String(localized: "running", comment: "Proxmox VM state")
+        case "stopped": String(localized: "stopped", comment: "Proxmox VM state")
+        case "paused": String(localized: "paused", comment: "Proxmox VM state")
+        case "suspended": String(localized: "suspended", comment: "Proxmox VM state")
+        default: status
+        }
+    }
+
     private func row(_ vm: ProxmoxVM, server: ProxmoxServer) -> some View {
         HStack {
             Circle()
                 .fill(vm.isRunning ? Color.green : vm.isPaused ? .orange : .secondary)
                 .frame(width: 8, height: 8)
-                .accessibilityLabel(vm.status)
+                .accessibilityLabel(Self.statusText(vm.status))
             VStack(alignment: .leading) {
                 Text(vm.name)
-                Text("\(vm.vmid) · \(vm.node) · \(vm.status)").font(.caption).foregroundStyle(.secondary)
+                Text("\(vm.vmid) · \(vm.node) · \(Self.statusText(vm.status))").font(.caption).foregroundStyle(.secondary)
             }
             Spacer()
             if busy.contains(vm.id) {

@@ -1,0 +1,42 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSMicrophoneUsageDescription": {
+      "comment": "Info.plist",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your microphone is sent to the virtual machine only while you have turned it on for that session."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il microfono viene inviato alla macchina virtuale solo mentre lo hai attivato per quella sessione."
+          }
+        }
+      }
+    },
+    "virt-viewer Connection File": {
+      "comment": "Info.plist",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "virt-viewer Connection File"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File di connessione virt-viewer"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

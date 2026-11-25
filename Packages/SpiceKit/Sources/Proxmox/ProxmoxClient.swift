@@ -21,22 +21,23 @@ public enum ProxmoxError: Error, Equatable, Sendable, LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .untrustedCertificate(let fingerprint):
-            "The server’s certificate isn’t trusted (SHA-256 \(ProxmoxError.formatted(fingerprint)))."
+            String(localized: "The server’s certificate isn’t trusted (SHA-256 \(ProxmoxError.formatted(fingerprint))).", bundle: .main)
         case .unauthorized:
-            "Proxmox rejected the API token. Check the token ID and secret."
+            String(localized: "Proxmox rejected the API token. Check the token ID and secret.", bundle: .main)
         case .forbidden(let message):
-            "The API token isn’t allowed to do this (\(message)). It needs VM.Audit, VM.PowerMgmt and VM.Console on the VM."
+            String(localized: "The API token isn’t allowed to do this (\(message)). It needs VM.Audit, VM.PowerMgmt and VM.Console on the VM.", bundle: .main)
+        case .http(let status, let message) where message.isEmpty:
+            String(localized: "Proxmox returned HTTP \(status).", bundle: .main)
         case .http(let status, let message):
-            "Proxmox returned HTTP \(status)\(message.isEmpty ? "" : ": \(message)")."
+            String(localized: "Proxmox returned HTTP \(status): \(message).", bundle: .main)
         case .invalidResponse:
-            "Proxmox sent an unexpected response."
+            String(localized: "Proxmox sent an unexpected response.", bundle: .main)
         case .invalidConfiguration(let reason):
-            "The Proxmox server settings are invalid (\(reason))."
+            String(localized: "The Proxmox server settings are invalid (\(reason)).", bundle: .main)
         case .transport(let reason):
-            "Couldn’t reach the Proxmox server (\(reason))."
+            String(localized: "Couldn’t reach the Proxmox server (\(reason)).", bundle: .main)
         case .qemuNotResponding(let vmid):
-            "VM \(vmid) didn’t answer Proxmox in time when asked for its SPICE details. Make sure its "
-                + "Display is set to SPICE and it isn’t busy with a backup or snapshot, then try again."
+            String(localized: "VM \(vmid) didn’t answer Proxmox in time when asked for its SPICE details. Make sure its Display is set to SPICE and it isn’t busy with a backup or snapshot, then try again.", bundle: .main)
         }
     }
 

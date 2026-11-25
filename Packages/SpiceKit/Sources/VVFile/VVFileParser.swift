@@ -13,17 +13,17 @@ public enum VVFileError: Error, Equatable, Sendable, LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .notUTF8:
-            "The connection file is not valid UTF-8 text."
+            String(localized: "The connection file is not valid UTF-8 text.", bundle: .main)
         case .missingVirtViewerSection:
-            "The connection file has no [virt-viewer] section."
+            String(localized: "The connection file has no [virt-viewer] section.", bundle: .main)
         case .unsupportedProtocol(let type):
-            "The connection file uses the “\(type)” protocol. Only SPICE is supported."
+            String(localized: "The connection file uses the “\(type)” protocol. Only SPICE is supported.", bundle: .main)
         case .missingKey(let key):
-            "The connection file is missing the required “\(key)” entry."
+            String(localized: "The connection file is missing the required “\(key)” entry.", bundle: .main)
         case .invalidValue(let key):
-            "The connection file has an invalid value for “\(key)”."
+            String(localized: "The connection file has an invalid value for “\(key)”.", bundle: .main)
         case .noPort:
-            "The connection file specifies neither a port nor a TLS port."
+            String(localized: "The connection file specifies neither a port nor a TLS port.", bundle: .main)
         }
     }
 }
